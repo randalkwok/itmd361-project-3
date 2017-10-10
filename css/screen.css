@@ -31,8 +31,9 @@ p {
   padding-bottom: 1.2em; /* 24 / 20 = 1.2 */
 }
 
-ol, ul {
+ul {
   padding-bottom: 0.6em; /* 12 / 20 = 0.6 */
+  list-style-type: circle;
 }
 
 /* Responsive Media */

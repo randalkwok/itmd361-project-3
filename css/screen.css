@@ -65,6 +65,21 @@ audio {
   left: 0;
 }
 
+#navigation li {
+  list-style-type: none;
+  float: left;
+  width: 33.3333333333%;
+}
+
+#navigation a {
+  display: block;
+  width: 100%;
+  padding-top: 0.6em; /* 12 / 20 = 0.6 */
+  padding-bottom: 0.6em; /* 12 / 20 = 0.6 */
+  text-align: center;
+  color: white;
+  background-color: black;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.

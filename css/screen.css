@@ -115,6 +115,7 @@ figcaption {
 
 #navigation ul {
   padding-left: 0;
+  font-weight: normal;
 }
 
 #navigation li {

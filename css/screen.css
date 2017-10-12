@@ -129,6 +129,7 @@ figcaption {
   padding-top: 0.6em; /* 12 / 20 = 0.6 */
   padding-bottom: 0.6em; /* 12 / 20 = 0.6 */
   text-align: center;
+  text-decoration: none;
   color: white;
   background-color: black;
 }

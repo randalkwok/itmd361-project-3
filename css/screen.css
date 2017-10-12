@@ -28,8 +28,6 @@ body{
   padding-top: 3.6em;/*  72 / 20 = 3.6 */
 }
 
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -47,11 +45,13 @@ ul ul {
 h1{
   font-size: 1.777em;/* 35.538 / 20 = 1.777 */
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-bottom: 0.675em;/*24 / 35.538 = 0.675 */
 }
 
 h2{
   font-size: 1.333em;/* 26.66 / 20 = 1.333 */
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-bottom: 0.9em;/*24 / 26.66 = 0.9 */
 }
 
 h3{

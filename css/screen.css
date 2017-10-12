@@ -79,8 +79,13 @@ audio {
   font-weight: bold;
 }
 
-#resume ul ul{
+#resume ul ul {
   font-weight: normal;
+}
+
+#motorola-list {
+  list-style-type: none;
+  padding-bottom: 0;
 }
 
 /* Layout Styles */

@@ -38,8 +38,9 @@ p {
   padding-bottom: 1.2em; /* 24 / 20 = 1.2 */
 }
 
-ul {
-  padding-bottom: 0.6em; /* 12 / 20 = 0.6 */
+ul ul {
+  padding-bottom: 1.2em;  /* 24 / 20 = 1.2 */
+  padding-left: 1.2em; /* 24 / 20 = 1.2 */
   list-style-type: disc;
 }
 
@@ -63,6 +64,10 @@ video,
 audio {
   display: block;
   max-width: 100%;
+}
+
+#resume h2{
+  padding-bottom: 0;
 }
 
 /* Layout Styles */

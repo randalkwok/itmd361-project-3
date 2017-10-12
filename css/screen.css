@@ -140,6 +140,11 @@ figcaption {
   2. concerned with adjustments to base styles,
       spacing, color, etc. etc.
 */
+#home #nav-home,
+#resume #nav-resume,
+#magic #nav-magic {
+  background-color: gray;
+}
 
 /* State Styles */
 /*

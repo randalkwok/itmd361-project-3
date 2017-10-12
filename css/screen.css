@@ -81,6 +81,10 @@ figcaption {
   text-align: center;
 }
 
+#resume article > h2 {
+  padding-bottom: 1.2em;
+}
+
 #resume h2 {
   padding-bottom: 0;
 }

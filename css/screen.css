@@ -59,6 +59,7 @@ h2 {
 }
 
 h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -72,6 +73,14 @@ audio {
 
 #resume h2 {
   padding-bottom: 0;
+}
+
+#resume ul {
+  font-weight: bold;
+}
+
+#resume ul ul{
+  font-weight: normal;
 }
 
 /* Layout Styles */

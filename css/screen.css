@@ -150,3 +150,17 @@ figcaption {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+
+@media screen and (min-width: 860px) {
+  body {
+    padding-left: 13.95348837209302%; /* 120 / 860 = 0.1395348837209302 */
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    padding-left: 13.95348837209302%;
+    width: 50%;
+  }
+}

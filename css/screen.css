@@ -48,12 +48,14 @@ ul ul {
 
 h1 {
   font-size: 1.777em;/* 35.538 / 20 = 1.777 */
+  line-height: 1.351em;/* 48 / 35.538 = 1.351 */
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding-bottom: 0.675em;/*24 / 35.538 = 0.675 */
 }
 
 h2 {
   font-size: 1.333em;/* 26.66 / 20 = 1.333 */
+  line-height: 0.90022505em;/* 24 / 26.66 = 0.90022505 */
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding-bottom: 0.9em;/*24 / 26.66 = 0.9 */
 }
@@ -82,7 +84,7 @@ figcaption {
 }
 
 #resume article > h2 {
-  padding-bottom: 1.2em;
+  padding-bottom: 0.90022505em;/*24 / 26.66 = 0.90022505 */
 }
 
 #resume h2 {

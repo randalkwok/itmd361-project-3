@@ -177,17 +177,34 @@ figcaption {
 */
 
 @media screen and (min-width: 860px) {
+  /*
+    700px grid - 80px margins (160px both)
+    Columns: 200px;
+    Gutters: 50px;
+    Content module: 450px;
+    Image module: 200px;
+  */
   body,
   #navigation ul {
-    padding-left: 13.95348837209302%; /* 120 / 860 = 0.1395348837209302 */
-    width: 65%;
+    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+  }
+  
+  #about-me {
+    width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
+    float: left;
+  }
+  #portrait {
+    margin: clear;
+    width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
+    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
+    float: right;
+  }
+  #footer {
+    clear:both;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  body,
-  #navigation ul {
-    padding-left: 13.95348837209302%;
-    width: 50%;
-  }
+  
 }

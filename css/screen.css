@@ -78,6 +78,7 @@ figcaption {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
 }
+
 #resume h2 {
   padding-bottom: 0;
 }
@@ -145,9 +146,6 @@ figcaption {
   line-height: 1.6em; /* 24 / 15.004 = 1.6 */
 }
 
-#resume ul ul {
-  font-weight: normal;
-}
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -160,6 +158,10 @@ figcaption {
 #resume #nav-resume,
 #magic #nav-magic {
   background-color: gray;
+}
+
+#resume ul ul {
+  font-weight: normal;
 }
 
 .img-circle {
@@ -185,8 +187,8 @@ figcaption {
     500px 3-column grid - 30px margins (60px both)
     Columns: 150px;
     Gutters: 25px;
-    Content module: 325px;
-    Image module: 150px;
+    Image module (Col 1): 150px;
+    About-me module (Col 2-3): 325px;
   */
   .img-circle {
     max-width: 100%;
@@ -209,7 +211,7 @@ figcaption {
     width: 30%; /* 150 / 500 = 0.3 */
     float: left;
   }
-  
+
   #footer {
     clear: both;
   }
@@ -221,8 +223,8 @@ figcaption {
     700px 3-column grid - 80px margins (160px both)
     Columns: 200px;
     Gutters: 50px;
-    Content module: 450px;
-    Image module: 200px;
+    Image module (Col 1): 200px;
+    About-me module (Col 2-3): 450px;
   */
   body,
   #navigation ul {

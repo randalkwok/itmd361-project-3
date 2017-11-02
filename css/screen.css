@@ -83,8 +83,9 @@ figcaption {
   text-align: center;
 }
 
-#resume article > h2 {
+#resume article > h2{
   padding-bottom: 0.90022505em;/*24 / 26.66 = 0.90022505 */
+  border-bottom: 0;
 }
 
 #resume h2 {
@@ -179,6 +180,7 @@ figcaption {
 
 @media screen and (min-width: 560px) {
   /*
+    Homepage
     500px 3-column grid - 30px margins (60px both)
     Columns: 150px;
     Gutters: 25px;
@@ -189,7 +191,7 @@ figcaption {
     max-width: 100%;
   }
   
-  #home body,
+  body,
   #navigation ul {
     padding-right: 10.714285714%; /* 60 / 560 = 0.10714285714 */
     padding-left: 10.714285714%; /* 60 / 560 = 0.10714285714 */
@@ -212,13 +214,14 @@ figcaption {
 
 @media screen and (min-width: 860px) {
   /*
+  Homepage
     700px 3-column grid - 80px margins (160px both)
     Columns: 200px;
     Gutters: 50px;
     Content module: 450px;
     Image module: 200px;
   */
-  #home body,
+  body,
   #navigation ul {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581 */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581 */
@@ -236,6 +239,25 @@ figcaption {
   }
   #footer {
     clear:both;
+  }
+  /*
+    Magic and Resume
+    700px 3-column grid - 80px margins (160px both)
+    Columns: 200px;
+    Gutters: 50px;
+    Content module: 450px;
+    Image module: 200px;
+  */
+  #magic-primary, 
+  #resume-content {
+    width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
+    float: left;
+  }
+  #magic-images {
+    padding-top: 2em;/* 48 / 24 = 2 */
+    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
+    width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
+    float: left;
   }
 }
 

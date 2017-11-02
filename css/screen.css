@@ -177,22 +177,17 @@ figcaption {
 */
 
 @media screen and (min-width: 860px) {
-  body {
+  body,
+  #navigation ul {
     padding-left: 13.95348837209302%; /* 120 / 860 = 0.1395348837209302 */
     width: 65%;
-  }
-  #navigation ul {
-    width: 80%;
-    margin: auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  body {
+  body,
+  #navigation ul {
     padding-left: 13.95348837209302%;
     width: 50%;
-  }
-  #navigation ul {
-    width: 60%;
   }
 }

@@ -139,14 +139,22 @@ figcaption {
   background-color: black;
 }
 
+main {
+  overflow: hidden;
+}
+
 #footer {
-  font-size: 0.75em;/* 15.004 / 20 = 0.75 */
+  position: absolute;
+  left: 0;
   width: 100%;
-  color: white;
   background-color: black;
 }
 
 #footer > p {
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 0.75em;/* 15.004 / 20 = 0.75 */
+  padding-left: 1.2em;
   padding-bottom: 0;
 }
 
@@ -214,10 +222,6 @@ figcaption {
     width: 30%; /* 150 / 500 = 0.3 */
     float: left;
   }
-
-  #footer {
-    clear: both;
-  }
 }
 
 @media screen and (min-width: 860px) {
@@ -245,10 +249,6 @@ figcaption {
     margin: clear;
     width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
     float: left;
-  }
-
-  #footer {
-    clear: both;
   }
 
   /*

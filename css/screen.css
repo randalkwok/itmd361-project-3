@@ -121,6 +121,7 @@ figcaption {
   width: 100%;
   top: 0;
   left: 0;
+  background-color: black;
 }
 
 #navigation ul {
@@ -141,6 +142,7 @@ figcaption {
   padding-bottom: 0.6em; /* 12 / 20 = 0.6 */
   text-align: center;
   text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: white;
   background-color: black;
 }
@@ -179,11 +181,18 @@ figcaption {
     padding-left: 13.95348837209302%; /* 120 / 860 = 0.1395348837209302 */
     width: 65%;
   }
+  #navigation ul {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   body {
     padding-left: 13.95348837209302%;
     width: 50%;
+  }
+  #navigation ul {
+    width: 60%;
   }
 }

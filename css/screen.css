@@ -139,23 +139,10 @@ figcaption {
   background-color: black;
 }
 
-main {
-  overflow: hidden;
-}
-
-#footer {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  background-color: black;
-}
-
-#footer > p {
-  color: white;
+#footer p {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 0.75em;/* 15.004 / 20 = 0.75 */
-  padding-left: 1.2em;
-  padding-bottom: 0;
+  line-height: 1.6em; /* 24 / 15.004 = 1.6 */
 }
 
 #resume ul ul {
@@ -221,6 +208,10 @@ main {
     margin: clear;
     width: 30%; /* 150 / 500 = 0.3 */
     float: left;
+  }
+  
+  #footer {
+    clear: both;
   }
 }
 

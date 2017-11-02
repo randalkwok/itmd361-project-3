@@ -158,6 +158,12 @@ figcaption {
   background-color: gray;
 }
 
+.img-circle {
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
 /* State Styles */
 /*
   States of the browser and user access

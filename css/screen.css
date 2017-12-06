@@ -55,7 +55,7 @@ h1 {
 
 h2 {
   font-size: 1.333em;/* 26.66 / 20 = 1.333 */
-  line-height: 0.90022505em;/* 24 / 26.66 = 0.90022505 */
+  line-height: 1.3503375844em;/* 36 / 26.66 = 1.3503375844 */
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding-bottom: 0.9em;/*24 / 26.66 = 0.9 */
 }

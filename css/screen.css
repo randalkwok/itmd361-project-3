@@ -145,11 +145,11 @@ figcaption {
 }
 
 .js #magic-images {
-  position: relative; 
+  position: relative;
 }
 
-.js #magic-images > figure { 
-    position: absolute; 
+.js #magic-images > figure {
+  position: absolute;
 }
 
 /* Modular Styles */
@@ -220,10 +220,14 @@ figcaption {
     padding-left: 10.714285714%; /* 60 / 560 = 0.10714285714 */
   }
 
+  #footer {
+    clear: both;
+  }
+
   .js body:after {
     content: "slideshow";
   }
-  
+
   #magic #footer {
     padding-top: 47vw;
   }
@@ -268,10 +272,6 @@ figcaption {
     float: left;
   }
 
-  #footer {
-    clear: both;
-  }
-
   .flexbox #home-article {
     display: flex;
     justify-content: space-between;
@@ -307,18 +307,7 @@ figcaption {
   .js body:after {
     content: "";
   }
-  
-  .js #magic-images {
-    position: static; 
-  }
 
-  .js #magic-images > figure { 
-    position: static; 
-  }
-  
-  #magic #footer {
-    padding-top: 0;
-  }
   /*
   Homepage
     700px 3-column grid - 80px margins (160px both)
@@ -364,6 +353,18 @@ figcaption {
     margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
     width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
     float: left;
+  }
+
+  .js #magic-images {
+    position: static;
+  }
+
+  .js #magic-images > figure {
+    position: static;
+  }
+
+  #magic #footer {
+    padding-top: 0;
   }
 
   .flexbox #magic-content {

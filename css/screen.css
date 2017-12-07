@@ -221,6 +221,17 @@ figcaption {
     padding-right: 0;
     padding-left: 0;
   }
+  .js #navigation ul
+  {
+    display: block;
+  }
+  
+  .flexbox #navigation ul {
+    display: flex;
+  }
+  .flexbox #navigation li {
+    float: none;
+  }
 
   body,
   #navigation ul {

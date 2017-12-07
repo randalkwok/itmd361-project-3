@@ -9,11 +9,13 @@ $(window).on('resize', toggleNavMenu);
 
 function toggleNavMenu() {
   if(responsiveFeature('nav-menu')) {
-    $('#navigation').prepend('<h2><a href="#navigation">Menu</a></h2>');
-    $('#navigation a[href="#navigation"]').on('click', function(e) {
-          $('#navigation ul').toggleClass('is-visible');
-    });
-    console.log("You support the nav menu!");
+    if($('#navigation h2').length === 0) {
+      $('#navigation').prepend('<h2><a href="#navigation">Menu</a></h2>');
+      $('#navigation a[href="#navigation"]').on('click', function(e) {
+            $('#navigation ul').toggleClass('is-visible');
+      });
+      console.log("You support the nav menu!");
+    }
   }
   else {
     console.log("You don't support the nav menu!");

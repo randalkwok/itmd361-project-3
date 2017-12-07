@@ -349,15 +349,15 @@ figcaption {
   .cssgrid #magic-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 5%; /* 25 / 500 = 0.05 */
+    grid-column-gap: 7.142857143%; /* 50 / 700 = 0.07142857143 */
   }
 
-  .cssgrid #how-magic,
+  .cssgrid #magic-primary,
   .cssgrid #magic-images {
     width: auto;
   }
 
-  .cssgrid #how-magic {
+  .cssgrid #magic-primary {
     grid-column: 1 / 3;
   }
 

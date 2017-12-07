@@ -221,7 +221,7 @@ figcaption {
   }
 
   .js body:after {
-    content: "";
+    content: "slideshow";
   }
 
   .img-circle {
@@ -300,6 +300,10 @@ figcaption {
 }
 
 @media screen and (min-width: 860px) {
+  .js body:after {
+    content: "";
+  }
+  
   .js #magic-images {
     position: static; 
   }

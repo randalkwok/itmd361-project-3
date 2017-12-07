@@ -300,6 +300,14 @@ figcaption {
 }
 
 @media screen and (min-width: 860px) {
+  .js #magic-images {
+    position: static; 
+  }
+
+  .js #magic-images > figure { 
+    position: static; 
+  }
+  
   /*
   Homepage
     700px 3-column grid - 80px margins (160px both)

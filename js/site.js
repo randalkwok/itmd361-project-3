@@ -5,12 +5,19 @@
 $('html').addClass('js');
 
 $(document).ready(toggleNavMenu);
+$(window).on('resize', toggleNavMenu);
 
 function toggleNavMenu() {
-  $('#navigation').prepend('<h2><a href="#navigation">Menu</a></h2>');
-  $('#navigation a[href="#navigation"]').on('click', function(e) {
-        $('#navigation ul').toggleClass('is-visible');
-  });
+  if(responsiveFeature('nav-menu')) {
+    $('#navigation').prepend('<h2><a href="#navigation">Menu</a></h2>');
+    $('#navigation a[href="#navigation"]').on('click', function(e) {
+          $('#navigation ul').toggleClass('is-visible');
+    });
+    console.log("You support the nav menu!");
+  }
+  else {
+    console.log("You don't support the nav menu!");
+  }
 }
 
 function responsiveFeature(feature) {

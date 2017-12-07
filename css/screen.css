@@ -140,7 +140,7 @@ figcaption {
   line-height: 1.6em; /* 24 / 15.004 = 1.6 */
 }
 
-#footer {
+#magic #footer {
   padding-top: 55vw;
 }
 
@@ -222,6 +222,10 @@ figcaption {
 
   .js body:after {
     content: "slideshow";
+  }
+  
+  #magic #footer {
+    padding-top: 47vw;
   }
 
   .img-circle {
@@ -312,6 +316,9 @@ figcaption {
     position: static; 
   }
   
+  #magic #footer {
+    padding-top: 0;
+  }
   /*
   Homepage
     700px 3-column grid - 80px margins (160px both)

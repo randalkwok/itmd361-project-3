@@ -140,6 +140,18 @@ figcaption {
   line-height: 1.6em; /* 24 / 15.004 = 1.6 */
 }
 
+#footer {
+  padding-top: 55vw;
+}
+
+.js #magic-images {
+  position: relative; 
+}
+
+.js #magic-images > figure { 
+    position: absolute; 
+}
+
 /* Modular Styles */
 /*
   Repeating style patterns.

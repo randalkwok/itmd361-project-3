@@ -215,6 +215,17 @@ figcaption {
   #footer {
     clear: both;
   }
+  
+  .flexbox #home-article {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flexbox #portrait,
+  .flexbox #about-me {
+    float: none;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 860px) {

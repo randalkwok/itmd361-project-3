@@ -19,6 +19,8 @@ function toggleNavMenu() {
   }
   else {
     console.log("You don't support the nav menu!");
+    $('#navigation h2').remove();
+    $('#navigation ul').removeClass('is-visible');
   }
 }
 

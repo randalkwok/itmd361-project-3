@@ -226,6 +226,25 @@ figcaption {
     float: none;
     margin: 0;
   }
+  
+  .cssgrid #home-article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5%; /* 25 / 500 = 0.05 */
+  }
+  
+  .cssgrid #portrait,
+  .cssgrid #about-me {
+    width: auto;
+  }
+  
+  .cssgrid #portrait {
+    grid-column: 1;
+  }
+  
+  .cssgrid #about-me {
+    grid-column: 2 / 4;
+  }
 }
 
 @media screen and (min-width: 860px) {

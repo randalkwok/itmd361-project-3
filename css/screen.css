@@ -174,6 +174,10 @@ figcaption {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+.js body:after {
+  content: "nav-menu";
+  display: none;
+}
 
 .js h2 {
   font-size: inherit;
@@ -198,6 +202,10 @@ figcaption {
     Image module (Col 1): 150px;
     About-me module (Col 2-3): 325px;
   */
+  .js body:after {
+  content: "";
+}
+  
   .img-circle {
     max-width: 100%;
   }

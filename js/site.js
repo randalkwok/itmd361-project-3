@@ -12,3 +12,14 @@ function toggleNavMenu() {
         $('#navigation ul').toggleClass('is-visible');
   });
 }
+
+function responsiveFeature(feature) {
+  var size = window
+    .getComputedStyle(document.body, ':after')
+    .getPropertyValue('content');
+  var has_feature = true;
+  if(size.indexOf(feature) === -1) {
+    has_feature = false;
+  }
+  return has_feature;
+}

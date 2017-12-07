@@ -275,6 +275,17 @@ figcaption {
     width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
     float: left;
   }
+  
+  .flexbox #magic-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flexbox #how-magic,
+  .flexbox #magic-images {
+    float: none;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {

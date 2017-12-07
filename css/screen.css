@@ -305,6 +305,25 @@ figcaption {
     float: none;
     margin: 0;
   }
+  
+  .cssgrid #magic-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5%; /* 25 / 500 = 0.05 */
+  }
+  
+  .cssgrid #how-magic,
+  .cssgrid #magic-images {
+    width: auto;
+  }
+  
+  .cssgrid #how-magic {
+    grid-column: 1 / 3;
+  }
+  
+  .cssgrid #magic-images {
+    grid-column: 3;
+  }
 }
 
 @media screen and (min-width: 1200px) {
